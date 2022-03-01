@@ -4,7 +4,7 @@ import requests
 
 lichess = "https://lichess.org/api/user/"
 chessdotcom = ""
-
+api = ""
 
 def getdata(username):
     response = requests.get(lichess+username+"/perf/blitz")
