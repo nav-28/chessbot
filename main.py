@@ -63,7 +63,7 @@ def api_lichess(username, gametype):
         return reply, -1
 
 
-
+# TODO: handle if no highest is there
 def lichessresponse(username):
     msg, ret = api_lichess(username, "bullet")
     if ret == -1 or ret == 0:
