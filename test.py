@@ -3,7 +3,7 @@
 import requests
 
 lichess = "https://lichess.org/api/user/"
-
+chessdotcom = ""
 
 
 def getdata(username):
